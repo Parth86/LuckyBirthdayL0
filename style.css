@@ -1,0 +1,64 @@
+:root {
+    --background-dark: aquamarine;
+    --black: #000;
+  }
+  html {
+    background-color: var(--background-dark);
+    color: var(--black);
+    height: 100%;
+  }
+  
+  h1{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  main{
+    width: 300px;
+    margin: auto auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: large;
+    margin: 1rem 0;
+  }
+  
+  button {
+    background-color: var(--background-dark);
+    border: 2px solid var(--black);
+    color: var(--black);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--black);
+    margin: auto;
+    display: block;
+  }
+  
+  #result {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+  }
